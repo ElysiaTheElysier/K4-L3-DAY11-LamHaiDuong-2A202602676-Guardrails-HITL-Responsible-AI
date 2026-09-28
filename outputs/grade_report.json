@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-28T05:22:07.431130+00:00",
+  "generated_at": "2026-09-28T10:38:35.001450+00:00",
   "submission_dir": "C:\\Ki_OJT\\Labs\\Lab_11\\K4-L3-DAY11-LamHaiDuong-2A202602676-Guardrails-HITL-Responsible-AI",
   "technical_failure": false,
   "packaging": {
@@ -41,13 +41,13 @@
       "llm_model": "gpt-4o-mini",
       "unsafe_leaks": 5,
       "unsafe_total": 5,
-      "guards_leaks": 3,
+      "guards_leaks": 5,
       "guards_total": 5
     }
   },
   "public_tests": {
-    "returncode": 1,
-    "stdout": "....F.....                                                               [100%]\n=========================== short test summary info ===========================\nFAILED tests/public/test_lab_contracts.py::test_egress_policy_blocks_sensitive_payload_and_unknown_destination\n1 failed, 9 passed in 0.76s\n",
+    "returncode": 0,
+    "stdout": "..........                                                               [100%]\n10 passed in 0.73s\n",
     "stderr": "",
     "technical_failure": false
   },

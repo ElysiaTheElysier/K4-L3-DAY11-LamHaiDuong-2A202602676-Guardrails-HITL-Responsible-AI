@@ -2,7 +2,7 @@
 
 > File này **tự sinh** bởi `scripts/grade.py`. **Không** viết / sửa tay.
 
-- Generated (UTC): `2026-09-28T05:22:07.431130+00:00`
+- Generated (UTC): `2026-09-28T10:38:35.001450+00:00`
 - Framework: `google-adk`
 - Technical failure: **False**
 
@@ -31,18 +31,16 @@
 
 - Provider / model: `openai` / `gpt-4o-mini`
 - Unsafe leaks (Red): `5/5`
-- Guards leaks (Red Advance): `3/5`
+- Guards leaks (Red Advance): `5/5`
 
 ## Public tests
 
-- Return code: `1`
+- Return code: `0`
 - Technical failure: `False`
 
 ```text
-....F.....                                                               [100%]
-=========================== short test summary info ===========================
-FAILED tests/public/test_lab_contracts.py::test_egress_policy_blocks_sensitive_payload_and_unknown_destination
-1 failed, 9 passed in 0.76s
+..........                                                               [100%]
+10 passed in 0.73s
 ```
 
 ## Notes
